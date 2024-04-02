@@ -14,7 +14,7 @@ from pydantic import BaseModel
 # path + label로 받는 형태
 
 # 예측 모듈 가져오기
-import clip_model
+import mmd_clip_test2
 
 class get_json(BaseModel):
     path : str
