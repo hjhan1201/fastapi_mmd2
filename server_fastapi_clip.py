@@ -37,7 +37,7 @@ async def upload_image(file: UploadFile, label:str):
 
 # Run the server
 if __name__ == "__main__":
-    uvicorn.run("server_test:app",
+    uvicorn.run("server_fastapi_clip:app",
                 reload = True,
                 host= "127.0.0.1",
                 port=8000,
